@@ -61,4 +61,3 @@ vector <int> build_lcp(const string &s, const vector <int> &p) {
 	}
 	return res;
 }
- 
