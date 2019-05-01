@@ -1,3 +1,6 @@
+/*
+    Build in O(n * log2(n)^2) time
+*/
 vector <int> sort_shifts(string const &s) {
     const int alphabet = 256;
     int n = s.size();
