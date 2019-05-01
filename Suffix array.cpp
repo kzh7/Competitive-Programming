@@ -1,5 +1,5 @@
 vector <int> sort_shifts(string const &s) {
-  	const int alphabet = 256;
+	const int alphabet = 256;
 	int n = s.size();
 
 	vector <int> p(n), c(n), cnt(alphabet);
@@ -35,7 +35,8 @@ vector <int> sort_shifts(string const &s) {
 		c = nc;
 	}
 	return p;
-} 
+}
+
 vector <int> build_sa(string s) {
 	s += "$";
 	vector <int> res = sort_shifts(s);
@@ -60,4 +61,4 @@ vector <int> build_lcp(const string &s, const vector <int> &p) {
 		if (k) k--;
 	}
 	return res;
-} 
+}
