@@ -1,6 +1,6 @@
 vector <int> sort_shifts(string const &s) {
 	const int alphabet = 256;
-	int n = s.size();
+
 
 	vector <int> p(n), c(n), cnt(alphabet);
 	for (int i = 0; i < n; i++) 
