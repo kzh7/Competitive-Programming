@@ -1,4 +1,4 @@
-vector <int> sort_shifts(string const &s)  {
+vector <int> sort_shifts(string const &s) {
 	const int alphabet = 256;
 	int n = s.size();
 
