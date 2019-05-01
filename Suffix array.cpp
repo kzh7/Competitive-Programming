@@ -1,5 +1,9 @@
 /*
-    Build in O(n * log2(n)^2) time
+    * Description:
+        * Suffix Array in O(N * log2(N)^2) time
+        * LCP in O(N) time
+    * Verification: 
+        * http://www.usaco.org/index.php?page=viewproblem2&cpid=768
 */
 vector <int> sort_shifts(string const &s) {
     const int alphabet = 256;
