@@ -60,4 +60,4 @@ vector <int> build_lcp(const string &s, const vector <int> &p) {
 		if (k) k--;
 	}
 	return res;
-}
+} 
