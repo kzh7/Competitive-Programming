@@ -2,7 +2,7 @@ vector <int> sort_shifts(string const &s) {
     const int alphabet = 256;
     int n = s.size();
 
-vector <int> p(n), c(n), cnt(alphabet);
+    vector <int> p(n), c(n), cnt(alphabet);
     for (int i = 0; i < n; i++) 
         cnt[s[i]]++;
     for (int i = 1; i < alphabet; i++) 
@@ -35,15 +35,14 @@ vector <int> p(n), c(n), cnt(alphabet);
         c = nc;
     }
     return p;
-    }
-
+}
 vector <int> build_sa(string s) {
     s += "$";
     vector <int> res = sort_shifts(s);
     res.erase(res.begin());
     return res;
-    }
-    vector <int> build_lcp(const string &s, const vector <int> &p) {
+}
+vector <int> build_lcp(const string &s, const vector <int> &p) {
     int n = s.size();
     vector <int> rank(n, 0);
     for (int i = 0; i < n; i++) 
@@ -61,4 +60,4 @@ vector <int> build_sa(string s) {
         if (k) k--;
     }
     return res;
-    }
+}
