@@ -35,7 +35,7 @@ vector <int> sort_shifts(string const &s) {
 		c = nc;
 	}
 	return p;
-}
+} 
 vector <int> build_sa(string s) {
 	s += "$";
 	vector <int> res = sort_shifts(s);
