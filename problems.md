@@ -4,3 +4,5 @@ Bridges
 Segment Tree
   * https://www.spoj.com/problems/DQUERY/
 
+  * Euler tour technique
+    * https://www.spoj.com/problems/PT07J/
